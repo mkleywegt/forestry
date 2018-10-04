@@ -1,1 +1,33 @@
+baseurl = "https://example.org/"
+title = "Arabica"
+author = "John Doe"
+paginate = 3
+theme = "personal"
 
+[params]
+    description = "A minimal Hugo theme"
+    replaceGoogleFonts = "fonts.loli.net"
+    twitter = "example"
+    facebook = "example"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = true
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = true
+    simple = false
+  [privacy.twitter]
+    disable = true
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = true
+    simple = false
+  [privacy.youtube]
+    disable = true
+    privacyEnhanced = false
